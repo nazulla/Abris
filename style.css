@@ -1,0 +1,444 @@
+body {
+  background-color: #f6eedf;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: DM Sans;
+}
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #11100e;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 200%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #11100e transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+.container-md{
+  padding: 0 0%;
+}
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: #d63447;
+  font-family: Raleway;
+}
+
+h3 {
+  font-weight: bold;
+
+}
+
+td {
+  border-right: 2.25rem solid transparent;
+}
+
+/* Navigation bar */
+#ulhead {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  padding-left: 4%;
+  padding-right: 3%;
+  overflow: hidden;
+  background-color: #f4aeba;
+}
+
+#lihead {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 2px;
+  text-decoration: none;
+}
+
+#lihead:hover {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #c54c82;
+}
+
+.navbar-brand {
+  font-family:The Nautigal ;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+/* Links */
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration:
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* Home page */
+.myDiv {
+  text-align: center;
+  padding-top:100px;
+  margin-bottom: 100px;
+  height: 400px;
+}
+
+@media only screen and (max-width:1197px){
+  .myDiv{
+    height: 250px;
+  }
+}
+
+.block {
+  text-align: center;
+  display: block;
+  margin: 25% 20% 12% 20%;
+}
+
+.choose ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.choose li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #ffcccc;
+  color: black;
+}
+
+.choose li:hover {
+  background-color: #fb7777;
+}
+
+.btnOp {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #f6eedf;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.options {
+  border-color: #474542;
+  color: black;
+}
+.options:hover {
+  background-color: #4a4e61;
+  color: white;
+}
+@media only screen and (max-width:990px){
+  .divOpt{
+    text-align: center;
+  }
+}
+
+
+/*feedback*/
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+
+#feedback{
+  padding-top: 40px;
+  margin-bottom: 40px;
+  background-color: #ffcccc;
+  border-radius: 20px;
+  height: 500px;
+}
+
+.card-deck{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.containerfeed{
+  padding-top: 1%;
+  padding-left:4%;
+  padding-right: 4%;
+}
+
+.img-text{
+  width: 100%;
+  height: 300px;
+  display: block;
+  text-align: center;
+  padding: 30% 5%;
+  background: #fff;
+  color:black;
+  border-radius: 15px;
+}
+.img-text h2{
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.img-text p{
+  font-size: 80%;
+}
+
+.single-box{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.img-area{
+  position: absolute;
+  width: 25%;
+  height:25%;
+  top: 5%;
+  left: 35%;
+  border-radius: 100%;
+}
+
+.img-area img{
+  width: 100%;
+  border-radius: 100%;
+}
+
+.carousel-indicators{
+  left:0;
+  top: auto;
+  bottom: -330px;
+}
+
+.carousel-indicators li{
+  background: #000;
+  border-radius: 100%;
+  width: 25px;
+}
+.carousel-indicators .active{
+  background: #fff;
+}
+
+/* Contact-us page */
+.Contactus-box {
+  text-align: center;
+  font-size: 120%;
+  background-color: #f6eedf;
+  height: 100%;
+  width: 100%;
+  padding-bottom:6%;
+  border: 3px solid black;
+}
+.formcontactus{
+  margin-top:10%;
+  margin-left:10%;
+  margin-right: 10%;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* About us page */
+.paraAbout{
+  font-size:1.7rem;
+  text-align: center;
+}
+.aboutusbox {
+  text-align: center;
+  font-size: 100%;
+  background-color: #f6eedf;
+  height: 100%;
+  width: 100%;
+  margin:  0px 0px 0px 0px;
+
+}
+table.tbcenter {
+  margin-left: 0px;
+  margin-right: auto;
+  border-left: 36%;
+  margin-bottom: 30px;
+}
+td, th{
+  width: 33.3333333333%;
+}
+.surp{
+  margin-left: 0px;
+  padding-top:10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+/* Work of students */
+.Worksbtn{
+  text-align: center;
+}
+.photo{
+  border-radius: 25%;
+  margin-bottom: 5%;
+  height: 50%;
+  width: 50%;
+}
+
+@media only screen and (max-width: 575.98px){
+  #feedback{
+    height:1200px;
+  }
+  .carousel-indicators{
+    left:0;
+    top: auto;
+    bottom: -1000px;
+  }
+  .h1ac{
+    font-size: 3rem;
+  }
+  .paraAbout{
+    font-size: 1rem;
+  }
+
+  .aboutusbox {
+    text-align: center;
+    font-size: 80%;
+    background-color: #f6eedf;
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+
+  }
+  table.tbcenter {
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 40%;
+    margin-bottom: 30px;
+  }
+
+  td, th{
+    width: 33.333333333%;
+  }
+
+}
+
+
+/* Footer */
+.colorfoot {
+  color: gray;
+  margin: 0% 2% 0% 2%;
+  padding-right: 0%;
+}
+
+.colorfoot a:visited {
+  color: gray;
+}
+
+.colorfoot a:link{
+  color:gray;
+}
+
+.footer {
+  background-color: #f4aeba;
+  height: 100px;
+  padding-top: 45px;
+  padding-right: 0%;
+  width: 100%;
+  text-align: center;
+  font-weight: 200px;
+  margin-bottom: 0;
+}
+
+.textfooter {
+  background-color: #f58295;
+  padding: 12px;
+  font-size: 70%;
+}
+
+.textfoot {
+  color: #403d3d;
+  margin: 2% 5% 0 2%;
+  text-align: right;
+}
+.footicon1{
+  padding-left:9%;
+}
+.footicon{
+  text-align: right;
+  padding-right: 7%;
+}
+/* Carousel */
+
+.carousel {
+  height: 30px;
+  margin-bottom: 5%;
+}

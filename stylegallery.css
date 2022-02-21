@@ -1,0 +1,164 @@
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.slides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.number {
+  color: pink;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.btnContainer {
+  color: #d63447;
+text-align: center;
+font-family: DM Sans;
+margin-top: 50px;
+margin-bottom: -90px;
+
+}
+
+.N {
+  background-image: url("nature29.jpg");
+}
+.a {
+  background-image: url("nature29.jpg");
+}
+.t {
+  background-image: url("nature29.jpg");
+}
+.u {
+  background-image: url("nature29.jpg");
+}
+.r {
+  background-image: url("nature29.jpg");
+}
+.e {
+  background-image: url("nature29.jpg");
+}
+
+
+.A {
+  background-image: url("nature29.jpg");
+}
+.n {
+  background-image: url("nature29.jpg");
+}
+.i {
+  background-image: url("nature29.jpg");
+}
+.m{
+  background-image: url("nature29.jpg");
+}
+.a {
+  background-image: url("nature29.jpg");
+}
+.l {
+  background-image: url("nature29.jpg");
+}
+.s {
+  background-image: url("nature29.jpg");
+}
+
+
+.set {
+  margin: 10% auto;
+  text-align: center;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.bb {
+  outline: none;
+  border: 5px solid pink;
+  font-size: 3rem;
+  font-family: 'Monserrat', bold;
+  line-height: 3;
+  font-weight: 700;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  display: inline-block;
+  width: 150px;
+  height: 100;
+  text-align: center;
+  margin: 3px;
+  background-color: white;
+}

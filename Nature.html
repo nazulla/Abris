@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Nature Page</title>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Raleway:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+  <!-- Css bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <!-- Css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/05775e320a.js" crossorigin="anonymous"></script>
+  <!-- JavaScript Css -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<!-- Tooltip script -->
+  <script>
+    $(function() {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
+  <!-- favicon -->
+  <link rel="icon" href="favicon2.ico">
+  <link rel="stylesheet" href="stylegallery.css">
+</head>
+
+<body>
+  <div class="container-md">
+    <nav class="navbar navbar-expand-lg navbar-light" id="ulhead">
+      <a class="navbar-brand" href="F:\First project html\Website html\index.html">abris <i class="fas fa-palette"></i></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" id="lihead">
+            <a class="nav-link" href="F:\First project html\Website html\contactus.html">Contact</a>
+          </li>
+          <li class="nav-item" id="lihead">
+            <a class="nav-link" href="F:\First project html\Website html\aboutus.html">About</a>
+          </li>
+          <li class="nav-item" id="lihead">
+            <a class="nav-link" href="https://youtube.com/playlist?list=PLhnHFsOn0cgdjNrlX4qeytqAUIhRqKbAI"><span data-toggle="tooltip" data-placement="bottom" title="Link to basic drawing lessons on YouTube">Tutorials</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br><br><br>
+    <h1> Nature </h1>
+    <hr>
+    <p>
+      This page is dedicated to Nature. Here you can find any pictures of your preference </p>
+      <hr>
+
+  <div class="slideshow-container">
+
+
+    <div class="mySlides">
+      <div class="number">1 / 5</div>
+      <img src="https://www.slashgear.com/wp-content/uploads/2012/10/projecteternity_firstscreen-820x420.jpg" style="width:100%">
+      <div class="text">Waterfall</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="number">2 / 5</div>
+      <img src="https://www.crownagents.com/wp-content/uploads/2020/12/shutterstock_552879889-1-820x420.jpg" style="width:100%">
+      <div class="text">River and the people</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="number">3 / 5</div>
+      <img src="https://seacruis.ru/wp-content/uploads/2020/05/avstraliya-820x420.jpg" style="width:100%">
+      <div class="text">Mountains</div>
+    </div>
+
+    <div class="mySlides">
+      <div class="number">4 / 5</div>
+      <img src="https://www.verywellhealth.com/thmb/I6l2uvWdvHH20HDL43vXAKf2S7g=/2121x1414/filters:fill(87E3EF,1)/GettyImages-1283080277-b7010f7c094e4fc8bbb6f8cdfd299f7a.jpg" style="width:100%">
+      <div class="text">Sunset with the mountain view</div>
+    </div>
+    <div class="mySlides">
+      <div class="number">5 / 5</div>
+      <img src="https://pravo-wmeste.ru/wp-content/uploads/2021/02/biznes-na-territorii-gsk-zapreshhyon-820x420.jpg" style="width:100%">
+      <div class="text">A beautiful sunset</div>
+    </div>
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+
+<hr>
+
+<div class="btnContainer">
+  <h3>If you would like to bring some atmosphere to inspire yourself, you may press some buttons so they make sound related to the page.</h3>
+</div>
+
+<div class="set">
+
+    <button class="N bb">N</button>
+      <button class="a bb">a</button>
+        <button class="t bb">t</button>
+          <button class="u bb">u</button>
+            <button class="r bb">r</button>
+              <button class="e bb">e</button>
+
+  </div>
+
+<script src="soundgal.js"></script>
+
+
+</body>
+<footer>
+  <div class="footer">
+    <div class="colorfoot">
+      <div class="row">
+        <div class="col-6 col-md-6 col-sm-6 col-6 footicon1">
+          <table>
+            <tr>
+              <td><a href="F:\First project html\Website html\contactus.html">Contact</a></td>
+              <td><i class="fas fa-grip-lines-vertical"></i></td>
+              <td><a href="F:\First project html\Website html\aboutus.html">About</a></td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-6 footicon">
+          <a href="https://www.instagram.com/astana_it_university/?hl=en"><span data-toggle="tooltip" data-placement="top" title="Instagram AITU"><i class="fab fa-instagram fa-2x icon;"></span></i></a>
+          <a href="https://moodle.astanait.edu.kz/"><span data-toggle="tooltip" data-placement="top" title="Moodle AITU"><i class="fas fa-graduation-cap fa-2x icon"></i></span></a>
+          <a href="https://t.me/joinchat/Vn18_ZuuznGEfmB5"><span data-toggle="tooltip" data-placement="top" title="Telegram AITU"><i class="fab fa-telegram-plane fa-2x icon"></i></span> </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="textfooter">
+    <div class="row textfoot">
+      <div class="col-lg-6 col-">
+        <p>Thank you for visiting our website! Made with <i class="fas fa-heart icon"></i> and effort by 3 students of AITU.</p>
+      </div>
+      <div class="col-lg-6">
+        <p> &#169;Abris</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+
+</html>
